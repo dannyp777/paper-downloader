@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "download-papers"
+version = "0.1.0"
+description = "Search Google Scholar, Scholarly and arXiv for papers and download them"
+authors = ["Danny J Poulson <dannyjp@skiffmail.com>"]
+readme = "README.md"
+packages = [{include = "download_papers"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.31.0"
+wget = "^3.2"
+scholarly = "^1.7.11"
+scraperapi-sdk = "^0.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

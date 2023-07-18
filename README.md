@@ -1,3 +1,5 @@
+![Static Badge](https://img.shields.io/badge/Project%20Status-Alpha-yellow)
+
 # Paper Downloader
 A powerful, Python-based utility for automating research paper downloads from ArXiv, Semantic Scholar, and Google Scholar.
 
